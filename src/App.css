@@ -84,8 +84,8 @@
 }
 
 .button {
-  height: var(--button-height);
-  width: var(--button-width);
+  height: 87.5%;
+  width: calc(87.5% * 0.8 / 2);
   position: absolute;
   top: 6.25%;
   left: 3.125%;
@@ -108,7 +108,7 @@
 }
 
 .button.active.button-dark {
-  width: calc((5 / 7 * var(--button-width)));
+  width: calc((var(--button-width) * 5 / 7));
   border-radius: 4444rem 9999rem 9999rem 4444rem;
 }
 
